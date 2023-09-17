@@ -1,0 +1,164 @@
+/*  */
+@font-face {
+    font-family: myFirstFont;
+    src: url('/../../fonts/DroidArabicKufi.ttf');
+}
+
+body {
+    background: #F2F4F7 !important;
+    font-family: myFirstFont;
+}
+
+#kt_body {
+    padding-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .aside-menu {
+        /*background-color: #ffffff  !important;*/
+    }
+
+    #kt_brand {
+        border-radius: 15px;
+        margin-bottom: 30px;
+        background: white;
+        height: 100px;
+
+    }
+
+/*    !**/
+/*    *!*/
+    #kt_aside_menu {
+         border-radius: 15px;
+        background: #ffffff !important;
+    }
+
+    .aside-menu .menu-nav > .menu-item > .menu-heading .menu-text, .aside-menu .menu-nav > .menu-item > .menu-link .menu-text {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: rgba(110, 112, 121, 1);
+        margin-right: 24px;
+    }
+    #kt_aside_menu .menu-item{
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading, .aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link {
+        background: rgba(0, 32, 120, 0.1);
+        color: black;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    .menu-link{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;;
+    }
+    .aside-menu .menu-nav{
+        border-radius: 15px;
+    }
+    .menu-link  .menu-icon
+    {
+        width: 32px;
+        height: 32px;
+    }
+    #kt_aside_menu .menu-nav .menu-item {
+        height: 72px;
+        margin-bottom: 10px;
+        border-radius: 24px !important;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(110, 112, 121, 1);
+    }
+
+    /*
+    rgba(0, 32, 120, 0)
+*/
+    .aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading .menu-text, .aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link .menu-text {
+        color: #002078;
+     }
+    .menu-nav .menu-item:hover ,
+    .menu-link:hover
+    {
+        background: rgba(0, 32, 120, 0.10) !important;
+    }
+
+    #kt_aside, #kt_aside {
+        /*background: #ffffff !important;*/
+        border-radius: 15px;
+        background: white;
+        /*margin-right: 30px;*/
+        margin-top: 15px;
+        border-radius: 15px;
+        height: 90px;
+        padding-bottom: 10px;
+
+    }
+
+    #kt_header {
+        border-radius: 15px;
+        background: white !important;
+        /*width: 50%;*/
+        margin-right: 25px;
+        margin-left: 25px;
+        height: 106px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+/*    #kt_header_menu_wrapper span {*/
+/*        color: rgba(13, 47, 140, 1);*/
+/*        font-weight: 700;*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    #kt_content {*/
+/*        margin-top: 60px;*/
+/*    }*/
+
+/*    .header-fixed.subheader-fixed.subheader-enabled .wrapper {*/
+/*        padding-top: 90px;*/
+
+/*        padding-right: 150px;*/
+/*    }*/
+
+/*    #sticky-toolbar {*/
+/*        top: 0;*/
+/*        border-radius: 15px;*/
+/*        !*width: 15%;*!*/
+/*        background: white;*/
+/*        height: auto;*/
+/*        margin-left: 15%;*/
+/*        margin-top: 120px;*/
+/*        margin-bottom: 0;*/
+/*    }*/
+
+    #sticky-toolbar div:first-of-type {
+        margin-top: 52px;
+        padding: 5px !important;
+
+        border-style: solid;
+        border-radius: 3px;
+        border-color: rgba(13, 47, 140, 1);
+        border-radius: 60px;
+    }
+
+    #sticky_toolbar_user_name {
+        font-size: 26px;
+        color: rgba(61, 60, 72, 1);
+        margin: 0;
+    }
+
+/*    #sticky-toolbar img {*/
+/*    }*/
+
+    .aside-menu .menu-nav > .menu-item {
+        height: 72px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}
